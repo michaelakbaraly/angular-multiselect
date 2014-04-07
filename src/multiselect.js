@@ -30,7 +30,7 @@ angular.module('ui.multiselect', [])
 
     function ($parse, $document, $compile, $interpolate, optionParser) {
       return {
-        restrict: 'E',
+        restrict: 'AE',
         require: 'ngModel',
         link: function (originalScope, element, attrs, modelCtrl) {
 
